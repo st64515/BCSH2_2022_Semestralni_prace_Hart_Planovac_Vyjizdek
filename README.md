@@ -1,0 +1,1 @@
+# BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek
