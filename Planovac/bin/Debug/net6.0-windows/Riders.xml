@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Riders>
+  <Rider>
+    <FirstName>Jenny</FirstName>
+    <LastName>Hopkins</LastName>
+    <HasLicense>Yes</HasLicense>
+    <IsAdult>Yes</IsAdult>
+    <Description>No desc.</Description>
+  </Rider>
+  <Rider>
+    <FirstName>Jimmy</FirstName>
+    <LastName>Stew</LastName>
+    <HasLicense>Yes</HasLicense>
+    <IsAdult>Yes</IsAdult>
+    <Description>No desc.</Description>
+  </Rider>
+  <Rider>
+    <FirstName>Alice</FirstName>
+    <LastName>Blue</LastName>
+    <HasLicense>Yes</HasLicense>
+    <IsAdult>No</IsAdult>
+    <Description>No desc.</Description>
+  </Rider>
+  <Rider>
+    <FirstName>Jméno</FirstName>
+    <LastName>ASD</LastName>
+    <HasLicense>s</HasLicense>
+    <IsAdult>ne</IsAdult>
+    <Description></Description>
+  </Rider>
+  <Rider>
+    <FirstName>Jméno</FirstName>
+    <LastName>Příjmení</LastName>
+    <HasLicense>ne</HasLicense>
+    <IsAdult>ne</IsAdult>
+    <Description></Description>
+  </Rider>
+</Riders>

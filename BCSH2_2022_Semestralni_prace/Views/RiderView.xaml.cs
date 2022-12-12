@@ -42,7 +42,7 @@ namespace BCSH2_2022_Semestralni_prace.Views
             }
             listBoxRiders.ItemsSource = riders;
         }
-
+        
         private void LstRiders_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             textBoxName.Text = (listBoxRiders.SelectedItem as Rider)?.Name;

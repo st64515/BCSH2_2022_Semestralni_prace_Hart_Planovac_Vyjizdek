@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Views\ActivityView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\AddEventView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HolidayView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\HorsesView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\RidersView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\SaveView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ActivityView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\AddEventView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Detail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HolidayView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HorsesView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RidersView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\SaveView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\TopMenuView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "BUYsO4lwdDyL3QqCcQbby0OBiv4UTw5hCa7gZxgGjEPsuWWv0GQpBLEkK1g0ERyPWWekj88KdlqkctaXjPfJrg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\Planovac\\Planovac.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sebik\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

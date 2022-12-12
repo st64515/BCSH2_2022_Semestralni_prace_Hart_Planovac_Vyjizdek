@@ -1,0 +1,40 @@
+﻿<Application x:Class="Planovac.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Planovac"
+             xmlns:views="clr-namespace:Planovac.Views"
+             xmlns:viewModels="clr-namespace:Planovac.ViewModels"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+
+        <DataTemplate DataType="{x:Type viewModels:TopMenuViewModel}">
+            <views:TopMenuView />
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:ActivityViewModel}">
+            <views:ActivityView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:AddEventViewModel}">
+            <views:AddEventView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:HolidayViewModel}">
+            <views:HolidayView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:HorsesViewModel}">
+            <views:HorsesView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:RidersViewModel}">
+            <views:RidersView/>
+        </DataTemplate>
+        
+        <DataTemplate DataType="{x:Type viewModels:SaveViewModel}">
+            <views:SaveView/>
+        </DataTemplate>
+
+
+    </Application.Resources>
+</Application>

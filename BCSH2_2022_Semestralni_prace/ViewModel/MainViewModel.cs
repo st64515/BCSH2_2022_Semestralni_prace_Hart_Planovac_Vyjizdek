@@ -1,4 +1,5 @@
 ﻿using BCSH2_2022_Semestralni_prace.Views;
+using CommunityToolkit.Mvvm.ComponentModel;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -9,27 +10,11 @@ using System.Windows.Controls;
 
 namespace BCSH2_2022_Semestralni_prace.ViewModel
 {
-    internal class MainViewModel : INotifyPropertyChanged
+    internal partial class MainViewModel : ObservableObject
     {
-        private UserControl _currentView = new TopMenu();
+        //[ObservableProperty]
+        //private BaseViewModel selectedViewModel = new RiderViewModel();
 
-        public UserControl CurrentView
-        {
-            get { return _currentView; }
-            set
-            {
-                _currentView = value;
-                OnPropertyChanged("CurrentView");
-            }
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        private void OnPropertyChanged(string propertyName)
-        {
-            if (PropertyChanged != null)
-            {
-                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
-            }
-        }
+        
     }
 }

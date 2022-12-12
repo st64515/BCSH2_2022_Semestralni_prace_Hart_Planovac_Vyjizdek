@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "wE97YpqhUIi+/pEWQhFT+sV6Nq00TmRTiT2w7XY8fJ1pctZia64IDw1B2JxLCXfCOCPbcCYKdPqZQtWHAD2/zw==",
+  "dgSpecHash": "a12NoahlWJNB4Bob96tIqouMSF4ofIGVpdtOHCa/QWGIS+CxOExXAzNcxaLadSUjCUIiIGb8xTvqUoQo8PJmeQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\BCSH2_2022_Semestralni_prace\\BCSH2_2022_Semestralni_prace.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\sebik\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

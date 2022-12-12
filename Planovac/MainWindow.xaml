@@ -1,0 +1,33 @@
+﻿<Window x:Class="Planovac.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Planovac"
+        xmlns:viewmodels="clr-namespace:Planovac.ViewModels"
+        mc:Ignorable="d"
+        d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
+        Title="MainWindow"
+        Height="600"
+        Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+
+        <ContentControl Content="{Binding TopMenuViewModel}"
+                        Grid.Row="0" />
+        <ContentControl Content="{Binding SelectedViewModel}"
+                        Grid.Row="1" />
+        <Separator Grid.Row="2" />
+        <Label Content="{Binding StatusLabelText}"
+               Grid.Row="3"
+               HorizontalAlignment="Right"
+               Width="auto"
+               FontSize="11"
+               FontStyle="Italic" />
+    </Grid>
+</Window>

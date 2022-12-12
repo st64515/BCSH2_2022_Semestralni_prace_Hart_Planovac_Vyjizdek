@@ -1,11 +1,12 @@
 ﻿using BCSH2_2022_Semestralni_prace.Model;
+//using prepinaniViews.ViewModels;
 using System;
 using System.Collections.ObjectModel;
 
 namespace BCSH2_2022_Semestralni_prace.ViewModel
 {
 
-    public class RiderViewModel
+    public class RiderViewModel //: BaseViewModel
     {
 
         public ObservableCollection<Rider> Riders
