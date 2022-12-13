@@ -16,7 +16,7 @@ public partial class ActivityView : UserControl
 {
     public ActivityView()
     {
-        DataContext = new ActivityViewModel();
+        //DataContext = new ActivityViewModel();
         InitializeComponent();
     }
 }

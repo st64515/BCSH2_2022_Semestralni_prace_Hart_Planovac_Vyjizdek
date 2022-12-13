@@ -1,0 +1,142 @@
+﻿<UserControl x:Class="Planovac.Views.EventDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d"
+             d:DesignHeight="400"
+             d:DesignWidth="600"
+             x:Name="eventDetailControl">
+    <Grid DataContext="{Binding ElementName=eventDetailControl, Path=DataContext}"
+          Width="auto"
+          HorizontalAlignment="Center"
+          VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="auto" />
+            <ColumnDefinition Width="auto" />
+        </Grid.ColumnDefinitions>
+        <Grid Name="grid1"
+              Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+            <Label Content="Datum události:"
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   Margin="3"
+                   VerticalAlignment="Bottom" />
+            <Label Content="Čas začátku:"
+                   Grid.Column="0"
+                   Grid.Row="1"
+                   Margin="3"
+                   VerticalAlignment="Center" />
+            <Label Content="Čas konce:"
+                   Grid.Column="0"
+                   Grid.Row="2"
+                   Margin="3"
+                   VerticalAlignment="Center" />
+            <Label Content="Popis:"
+                   Grid.Column="0"
+                   Grid.Row="3"
+                   Margin="3"
+                   VerticalAlignment="Center" />
+            <Label Content="Vedoucí jezdec:"
+                   Grid.Column="0"
+                   Grid.Row="4"
+                   HorizontalAlignment="Left"
+                   Margin="3"
+                   VerticalAlignment="Center" />
+            <Calendar Grid.Column="1"
+                      Grid.Row="0"
+                      Margin="3"
+                      SelectedDate="{Binding Path=Date}"
+                      VerticalAlignment="Center"
+                      HorizontalAlignment="Center" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="1"
+                     Width="200"
+                     Margin="3"
+                     Name="textBoxEventTimeStart"
+                     Text="{Binding Path=StartTime, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="2"
+                     Width="200"
+                     Margin="4"
+                     Name="textBoxEventTimeEnd"
+                     Text="{Binding Path=EndTime, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="3"
+                     Width="200"
+                     Margin="5"
+                     Name="textBoxEventName"
+                     Text="{Binding Path=Description, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center" />
+            <TextBox Grid.Column="1"
+                     Grid.Row="4"
+                     Width="200"
+                     Margin="5"
+                     Text="{Binding Path=MasterRider, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center" />
+        </Grid>
+        <Grid Name="grid2"
+              Grid.Column="1"
+              VerticalAlignment="Center" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="250" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label Content="Seznam koní:"
+                   Grid.Row="0" />
+            <ListBox Grid.Row="1"
+                     ItemsSource="{Binding Path=Horses}"
+                     Width="100">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}" />
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+            <!--<TextBox Grid.Row="2"
+                     Width="100"
+                     Margin="5"
+                     Text="{Binding Path=SelectedHorse, Mode=TwoWay, ValidatesOnExceptions=true, NotifyOnValidationError=true}"
+                     VerticalAlignment="Center"
+                     HorizontalAlignment="Center" />
+            <Button Grid.Row="3"
+                    Width="100"
+                    Height="25"
+                    Margin="5"
+                    Content="Doplnit koně"
+                    Command="{Binding AddHorseCommand}" />
+            <Button Grid.Row="4"
+                    Width="100"
+                    Height="25"
+                    Margin="5"
+                    Content="Odebrat koně"
+                    Command="{Binding RemoveHorseCommand}" />-->
+            <Button Grid.Row="3"
+                    Width="100"
+                    Height="25"
+                    Margin="5"
+                    Content="Potvrdit" />
+        </Grid>
+    </Grid>
+</UserControl>

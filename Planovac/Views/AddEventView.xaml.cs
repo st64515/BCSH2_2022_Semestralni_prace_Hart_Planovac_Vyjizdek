@@ -10,7 +10,6 @@ public partial class AddEventView : UserControl
 {
     public AddEventView()
     {
-        DataContext = new AddEventViewModel();
         InitializeComponent();
     }
 }

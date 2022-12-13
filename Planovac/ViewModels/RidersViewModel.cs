@@ -8,7 +8,7 @@ using CommunityToolkit.Mvvm.Messaging;
 namespace Planovac.ViewModels;
 
 [ObservableRecipient]
-partial class RidersViewModel : BaseViewModel, IRecipient<SaveRequest>
+public partial class RidersViewModel : BaseViewModel, IRecipient<SaveRequest>
 {
     private readonly IRiderRepository _riderRepository;
 
@@ -44,7 +44,7 @@ partial class RidersViewModel : BaseViewModel, IRecipient<SaveRequest>
         OnPropertyChanged("Riders");
     }
 
-    [RelayCommand(CanExecute = "HasSelectedCustomer")]
+    [RelayCommand(CanExecute = "HasSelectedRider")]
     private void Remove()
     {
         if (SelectedRider != null)
@@ -55,6 +55,6 @@ partial class RidersViewModel : BaseViewModel, IRecipient<SaveRequest>
         }
     }
 
-    private bool HasSelectedCustomer() => SelectedRider != null;
+    private bool HasSelectedRider() => SelectedRider != null;
     
 }

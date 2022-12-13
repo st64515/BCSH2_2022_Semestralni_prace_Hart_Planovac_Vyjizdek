@@ -6,12 +6,32 @@ using System.Threading.Tasks;
 
 namespace Planovac.Models
 {
-    class Event
+    public class Event
     {
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
+        public DateTime Date { get; set; }
+        public string StartTime { get; set; } = "";
+        public string EndTime { get; set; } = "";
         public string Description { get; set; } = "";
-        public List<Horse>? Horses { get; set; }
-        public Rider? MasterRider { get; set; }
+        public List<string>? Horses { get; set; }
+        public string? MasterRider { get; set; }
+        public string HorsesString
+        {
+            get
+            {
+                StringBuilder stringBuilder = new StringBuilder();
+                if (Horses is not null )
+                {
+                    foreach (string hor in Horses)
+                    {
+                        stringBuilder.Append(hor);
+                        if (hor != Horses.Last())
+                        {
+                            stringBuilder.Append(", ");
+                        }
+                    }
+                }
+                return stringBuilder.ToString();
+            }
+        }
     }
 }

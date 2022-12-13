@@ -1,0 +1,57 @@
+﻿<UserControl x:Class="Planovac.Views.ArchiveView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Planovac.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
+        <DataGrid AutoGenerateColumns="False"
+                  x:Name="master"
+                  CanUserAddRows="False"
+                  CanUserDeleteRows="True"
+                  Grid.Row="0"
+                  ItemsSource="{Binding Events}"
+                  SelectedItem="{Binding SelectedEvent, Mode=TwoWay}"
+                  >
+            <DataGrid.Columns>
+                <DataGridTextColumn Binding="{Binding Date, StringFormat=\{0:dd. MM. yyyy\}}"
+                                    Header="Datum"
+                                    Width="90"
+                                    SortDirection="Ascending" />
+                <DataGridTextColumn Binding="{Binding MasterRider}"
+                                    Header="Vedoucí jezdec"
+                                    Width="150" />
+                <DataGridTextColumn Binding="{Binding StartTime}"
+                                    Header="Od"
+                                    Width="80" />
+                <DataGridTextColumn Binding="{Binding EndTime}"
+                                    Header="Do"
+                                    Width="80" />
+                <DataGridTextColumn Binding="{Binding Description}"
+                                    Header="Popis"
+                                    Width="150" />
+                <DataGridTextColumn Binding="{Binding HorsesString}"
+                                    Header="Koně"
+                                    Width="*"
+                                    IsReadOnly="True" />
+            </DataGrid.Columns>
+        </DataGrid>
+        <StackPanel Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="5"
+                    Grid.Row="3">
+            <Button Width="100"
+                    Height="25"
+                    Margin="5"
+                    Content="Trvale odstranit"
+                    Command="{Binding RemoveCommand}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

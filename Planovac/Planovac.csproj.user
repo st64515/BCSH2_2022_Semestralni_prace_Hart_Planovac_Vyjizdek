@@ -13,6 +13,9 @@
     <Compile Update="Views\AddEventView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\ArchiveView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\HolidayView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -20,9 +23,6 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Views\RidersView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Update="Views\SaveView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -36,7 +36,16 @@
     <Page Update="Views\AddEventView.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="Views\Detail.xaml">
+    <Page Update="Views\ArchiveView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\HorseDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\EventDetail.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\RiderDetail.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\HolidayView.xaml">
@@ -46,9 +55,6 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\RidersView.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Update="Views\SaveView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Views\TopMenuView.xaml">

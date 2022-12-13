@@ -26,5 +26,11 @@ namespace Planovac.ViewModels
         {
             messenger.Send(new SaveRequest());
         }
+
+        [RelayCommand]
+        private void PostOnTelegram()
+        {
+            messenger.Send(new PostToTelegramRequest());
+        }
     }
 }

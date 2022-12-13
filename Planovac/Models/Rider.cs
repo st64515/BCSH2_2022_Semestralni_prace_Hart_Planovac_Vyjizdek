@@ -10,6 +10,8 @@ namespace Planovac.Models
         public string? HasLicense { get; set; } = "ne";
         public string? IsAdult { get; set; } = "ne";
         public string? Description { get; set; } = "";
-        
+
+        public string FullName => FirstName + " " + LastName;
+
     }
 }

@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
 C:\Users\sebik\source\repos\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\Planovac\App.xaml
-9253153510
+111057385538
 
-26-986950911
-1951790589732
-MainWindow.xaml;Views\ActivityView.xaml;Views\AddEventView.xaml;Views\Detail.xaml;Views\HolidayView.xaml;Views\HorsesView.xaml;Views\RidersView.xaml;Views\SaveView.xaml;Views\TopMenuView.xaml;
+32-372175452
+228-1746947761
+MainWindow.xaml;Views\ActivityView.xaml;Views\AddEventView.xaml;Views\ArchiveView.xaml;Views\EventDetail.xaml;Views\HolidayView.xaml;Views\HorseDetail.xaml;Views\HorsesView.xaml;Views\RiderDetail.xaml;Views\RidersView.xaml;Views\TopMenuView.xaml;
 
 False
 

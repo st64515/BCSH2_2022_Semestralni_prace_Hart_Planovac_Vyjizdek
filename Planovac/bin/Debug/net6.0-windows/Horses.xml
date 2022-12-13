@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Horses>
+  <Horse>
+    <Name>Ben</Name>
+    <Description>Pouze krokem</Description>
+  </Horse>
+  <Horse>
+    <Name>Jack</Name>
+    <Description>Jen pro pokročilé</Description>
+  </Horse>
+  <Horse>
+    <Name>Charlie</Name>
+    <Description>Vhodný pro děti</Description>
+  </Horse>
+  <Horse>
+    <Name>Swift</Name>
+    <Description>Po závodu - odpočinek</Description>
+  </Horse>
+  <Horse>
+    <Name>Taylor</Name>
+    <Description>Nemocný - léky v 18:00 do 21. 1. 2023</Description>
+  </Horse>
+</Horses>

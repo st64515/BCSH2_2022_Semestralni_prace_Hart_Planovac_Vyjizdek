@@ -7,24 +7,30 @@
         xmlns:viewmodels="clr-namespace:Planovac.ViewModels"
         mc:Ignorable="d"
         d:DataContext="{d:DesignInstance Type=viewmodels:MainWindowViewModel}"
-        Title="MainWindow"
-        Height="600"
+        Title="Plánovač"
+        Height="700"
         Width="1200">
     <Grid>
         <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
 
+        <Separator Grid.Row="0"
+                   Background="LightGray" />
         <ContentControl Content="{Binding TopMenuViewModel}"
-                        Grid.Row="0" />
-        <ContentControl Content="{Binding SelectedViewModel}"
                         Grid.Row="1" />
-        <Separator Grid.Row="2" />
+        <Separator Grid.Row="2" Background="LightGray"/>
+        <ContentControl Content="{Binding SelectedViewModel}"
+                        Grid.Row="3" />
+        <Separator Grid.Row="4"
+                   Background="LightGray" />
         <Label Content="{Binding StatusLabelText}"
-               Grid.Row="3"
+               Grid.Row="5"
                HorizontalAlignment="Right"
                Width="auto"
                FontSize="11"

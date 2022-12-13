@@ -46,10 +46,10 @@
             </DataGrid.Columns>
         </DataGrid>
         
-        <local:Detail Grid.Row="1"
+        <local:RiderDetail Grid.Row="1"
                       DataContext="{Binding SelectedRider}"
                       Margin="5"
-                      x:Name="detail" />
+                      x:Name="riderDetail" />
         
         <StackPanel Orientation="Horizontal"
                     HorizontalAlignment="Right"

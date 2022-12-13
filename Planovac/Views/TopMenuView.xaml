@@ -6,14 +6,15 @@
              xmlns:local="clr-namespace:Planovac.Views"
              mc:Ignorable="d"
              d:DesignHeight="100"
-             d:DesignWidth="800">
+             d:DesignWidth="800"
+             Background="AliceBlue">
 
     <StackPanel Orientation="Horizontal">
         <Button Command="{Binding UpdateViewCommand}"
                 CommandParameter="Activity">
             <StackPanel>
                 <Image Source="/Views/Images/schedule_ico.png" />
-                <TextBlock Text="Rozvh&#x0a;ackí" />
+                <TextBlock Text="Rozvh&#x0a;akcí" />
             </StackPanel>
         </Button>
         <Button Command="{Binding UpdateViewCommand}"
@@ -41,7 +42,7 @@
                 CommandParameter="Holiday">
             <StackPanel>
                 <Image Source="/Views/Images/holiday_ico.png" />
-                <TextBlock Text="Blokovat&#x0a;den" />
+                <TextBlock Text="Prázdniny" />
             </StackPanel>
         </Button>
         <Button Command="{Binding SaveCommand}">
@@ -49,6 +50,21 @@
                 <Image Source="/Views/Images/save_ico.png" />
                 <TextBlock Text="Uložit"
                            VerticalAlignment="Bottom" />
+            </StackPanel>
+        </Button>
+        <Button Command="{Binding UpdateViewCommand}"
+                CommandParameter="Archive">
+            <StackPanel>
+                <Image Source="/Views/Images/archive_ico.png" />
+                <TextBlock Text="Archiv"
+                           VerticalAlignment="Bottom" />
+            </StackPanel>
+        </Button>
+        <Button Command="{Binding PostOnTelegramCommand}">
+            <StackPanel>
+                <Image Source="/Views/Images/telegram_ico.png" />
+                <TextBlock Text="Odeslat přes&#x0a;telegram"
+                       VerticalAlignment="Bottom" />
             </StackPanel>
         </Button>
     </StackPanel>
@@ -61,7 +77,7 @@
             <Setter Property="MinWidth"
                     Value="80" />
             <Setter Property="Background"
-                    Value="White" />
+                    Value="AliceBlue" />
             <Setter Property="BorderThickness"
                     Value="0" />
         </Style>
@@ -80,7 +96,7 @@
             <Setter Property="TextAlignment"
                     Value="Center" />
             <Setter Property="Height"
-                    Value="30px" />
+                    Value="35px" />
             <Setter Property="VerticalAlignment"
                     Value="Center" />
             <Setter Property="Margin"

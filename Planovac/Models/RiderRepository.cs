@@ -9,11 +9,12 @@ namespace Planovac.Models
     class RiderRepository : IRiderRepository
     {
         public IList<Rider> riders;
-        private string actualFileName = "Riders.xml";
+        private string actualFileName;
 
-        public RiderRepository()
+        public RiderRepository(string filename)
         {
-            var doc = XDocument.Load("Riders.xml");
+            actualFileName = filename;
+            var doc = XDocument.Load(actualFileName);
             riders = new ObservableCollection<Rider>((from c in doc.Descendants("Rider")
                                                       select new Rider
                                                       {
@@ -21,7 +22,7 @@ namespace Planovac.Models
                                                           LastName = GetValueOrDefault(c, "LastName"),
                                                           HasLicense = GetValueOrDefault(c, "HasLicense"),
                                                           IsAdult = GetValueOrDefault(c, "IsAdult"),
-                                                          Description = GetValueOrDefault(c, "Description"),
+                                                          Description = GetValueOrDefault(c, "Description")
                                                       }).ToList());
         }
 
@@ -102,11 +103,11 @@ namespace Planovac.Models
             riders = new ObservableCollection<Rider>((from c in doc.Descendants("Rider")
                                                       select new Rider
                                                       {
-                                                          FirstName = GetValueOrDefault(c, "CustomerID"),
-                                                          LastName = GetValueOrDefault(c, "CompanyName"),
-                                                          HasLicense = GetValueOrDefault(c, "ContactName"),
-                                                          IsAdult = GetValueOrDefault(c, "ContactTitle"),
-                                                          Description = GetValueOrDefault(c, "Address"),
+                                                          FirstName = GetValueOrDefault(c, "FirstName"),
+                                                          LastName = GetValueOrDefault(c, "LastName"),
+                                                          HasLicense = GetValueOrDefault(c, "HasLicense"),
+                                                          IsAdult = GetValueOrDefault(c, "IsAdult"),
+                                                          Description = GetValueOrDefault(c, "Description")
                                                       }).ToList());
         }
     }

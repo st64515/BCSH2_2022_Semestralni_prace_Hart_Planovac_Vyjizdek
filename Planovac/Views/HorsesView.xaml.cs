@@ -10,7 +10,7 @@ public partial class HorsesView : UserControl
 {
     public HorsesView()
     {
-        DataContext = new HorsesViewModel();
+        //DataContext = new HorsesViewModel();
         InitializeComponent();
     }
 }

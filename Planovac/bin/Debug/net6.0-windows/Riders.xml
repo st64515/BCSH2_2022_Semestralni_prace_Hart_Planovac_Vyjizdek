@@ -1,37 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <Riders>
   <Rider>
-    <FirstName>Jenny</FirstName>
-    <LastName>Hopkins</LastName>
-    <HasLicense>Yes</HasLicense>
-    <IsAdult>Yes</IsAdult>
-    <Description>No desc.</Description>
+    <FirstName>Malika</FirstName>
+    <LastName>Moore</LastName>
+    <HasLicense>ano</HasLicense>
+    <IsAdult>ano</IsAdult>
+    <Description>Zaplatit členství</Description>
   </Rider>
   <Rider>
-    <FirstName>Jimmy</FirstName>
-    <LastName>Stew</LastName>
-    <HasLicense>Yes</HasLicense>
-    <IsAdult>Yes</IsAdult>
-    <Description>No desc.</Description>
+    <FirstName>Jessica</FirstName>
+    <LastName>Diaz</LastName>
+    <HasLicense>ne</HasLicense>
+    <IsAdult>ano</IsAdult>
+    <Description></Description>
   </Rider>
   <Rider>
-    <FirstName>Alice</FirstName>
-    <LastName>Blue</LastName>
-    <HasLicense>Yes</HasLicense>
-    <IsAdult>No</IsAdult>
-    <Description>No desc.</Description>
-  </Rider>
-  <Rider>
-    <FirstName>Jméno</FirstName>
-    <LastName>ASD</LastName>
-    <HasLicense>s</HasLicense>
+    <FirstName>Seth</FirstName>
+    <LastName>Stein</LastName>
+    <HasLicense>ne</HasLicense>
     <IsAdult>ne</IsAdult>
     <Description></Description>
   </Rider>
   <Rider>
-    <FirstName>Jméno</FirstName>
-    <LastName>Příjmení</LastName>
-    <HasLicense>ne</HasLicense>
+    <FirstName>Luna</FirstName>
+    <LastName>Munoz</LastName>
+    <HasLicense>ano</HasLicense>
     <IsAdult>ne</IsAdult>
     <Description></Description>
   </Rider>
