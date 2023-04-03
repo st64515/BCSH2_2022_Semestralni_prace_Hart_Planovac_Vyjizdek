@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V69f9BG10rT4P3WFFX1ELZ+JdA7lWjRzXJN1wd+SjCIwp19QWWCb+eShNQSldkejnXgefqjBz+0DPsflCBm0fg==",
+  "dgSpecHash": "JVHnkMfOLremmBhpS7bRCheWcuIcDRxPPnDOpZjkCdAbeGxMZGuf+4qICS0mZGdi4QsAm13A12PDzwopjaEpHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\Telegram_pokus\\Telegram_pokus.csproj",
+  "projectFilePath": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\Telegram_pokus\\Telegram_pokus.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebik\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
     "C:\\Users\\sebik\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\6.0.0\\microsoft.extensions.configuration.abstractions.6.0.0.nupkg.sha512",

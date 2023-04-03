@@ -100,7 +100,7 @@ namespace Planovac.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Planovac;V1.0.0.0;component/views/eventdetail.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Planovac;component/views/eventdetail.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\EventDetail.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

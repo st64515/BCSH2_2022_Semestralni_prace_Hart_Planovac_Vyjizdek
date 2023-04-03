@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BCSH2_2022_Semestralni_prace", "BCSH2_2022_Semestralni_prace\BCSH2_2022_Semestralni_prace.csproj", "{573FC08D-BF26-45DA-92ED-D7608859D3EC}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Planovac", "Planovac\Planovac.csproj", "{68789F6F-401D-4E3D-8443-867A528AB66A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Telegram_pokus", "Telegram_pokus\Telegram_pokus.csproj", "{5B275136-2CE4-482D-8AE8-E994FCE32626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Telegram_pokus", "Telegram_pokus\Telegram_pokus.csproj", "{5B275136-2CE4-482D-8AE8-E994FCE32626}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{573FC08D-BF26-45DA-92ED-D7608859D3EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{573FC08D-BF26-45DA-92ED-D7608859D3EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{573FC08D-BF26-45DA-92ED-D7608859D3EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{573FC08D-BF26-45DA-92ED-D7608859D3EC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{68789F6F-401D-4E3D-8443-867A528AB66A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{68789F6F-401D-4E3D-8443-867A528AB66A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{68789F6F-401D-4E3D-8443-867A528AB66A}.Release|Any CPU.ActiveCfg = Release|Any CPU

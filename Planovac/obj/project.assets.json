@@ -1659,11 +1659,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\Planovac\\Planovac.csproj",
+      "projectUniqueName": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\Planovac\\Planovac.csproj",
       "projectName": "Planovac",
-      "projectPath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\Planovac\\Planovac.csproj",
+      "projectPath": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\Planovac\\Planovac.csproj",
       "packagesPath": "C:\\Users\\sebik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\Planovac\\obj\\",
+      "outputPath": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\Planovac\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sebik\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -61,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\BCSH2_2022_Semestralni_prace\\BCSH2_2022_Semestralni_prace.csproj",
+      "projectUniqueName": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\BCSH2_2022_Semestralni_prace\\BCSH2_2022_Semestralni_prace.csproj",
       "projectName": "BCSH2_2022_Semestralni_prace",
-      "projectPath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\BCSH2_2022_Semestralni_prace\\BCSH2_2022_Semestralni_prace.csproj",
+      "projectPath": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\BCSH2_2022_Semestralni_prace\\BCSH2_2022_Semestralni_prace.csproj",
       "packagesPath": "C:\\Users\\sebik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek\\BCSH2_2022_Semestralni_prace\\obj\\",
+      "outputPath": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\BCSH2_2022_Semestralni_prace\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sebik\\AppData\\Roaming\\NuGet\\NuGet.Config",
