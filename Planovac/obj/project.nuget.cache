@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fCNJqfQHvzlvaIAjruJimK2td6r1hcYhfAgmBcnIZVVOhy+ehHs56TMXBaEJExb7wl8T399drqTx2Qexm1VPSw==",
+  "dgSpecHash": "H4upQxQ7UehFFEJzAZ8yJQqH7Ych6Q51kJkil+ayx5kh8ojmSX1XlSf6jZPGs5Sw/aiSv2lJDIjgSpoELInm3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sebik\\Source\\Repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\Planovac\\Planovac.csproj",
+  "projectFilePath": "C:\\Users\\sebik\\source\\repos\\BCSH2_2022_Semestralni_prace_Hart_Planovac_Vyjizdek_z_gitu\\Planovac\\Planovac.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sebik\\.nuget\\packages\\communitytoolkit.mvvm\\8.0.0\\communitytoolkit.mvvm.8.0.0.nupkg.sha512",
     "C:\\Users\\sebik\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",
